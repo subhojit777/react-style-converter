@@ -1,9 +1,8 @@
 var styleMap = require('./map.json')
 
 var convert = function (key) {
-  var val = styleMap[key.toLowerCase()];
-  return val ? val : key;
-};
+  return styleMap[key.toLowerCase()] ? styleMap[key.toLowerCase()] : key
+}
 
-module.exports = convert;
-module.exports.convert = convert;
+module.exports = convert
+module.exports.convert = convert
