@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/subhojit777/react-style-converter.svg?branch=master)](https://travis-ci.org/subhojit777/react-style-converter)
 
+[![Coverage Status](https://coveralls.io/repos/github/subhojit777/react-style-converter/badge.svg?branch=master)](https://coveralls.io/github/subhojit777/react-style-converter?branch=master)
+
 # React style converter
 
 Converts style properties into React format
