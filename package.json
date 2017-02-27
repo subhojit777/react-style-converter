@@ -1,0 +1,26 @@
+{
+  "name": "react-style-converter",
+  "version": "1.0.0",
+  "description": "Convert style properties into React format",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subhojit777/react-style-converter.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Subhojit Paul <subhojitpaul21@gmail.com> (http://subhojit777.in)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/subhojit777/react-style-converter/issues"
+  },
+  "homepage": "https://github.com/subhojit777/react-style-converter#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
