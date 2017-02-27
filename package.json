@@ -4,7 +4,8 @@
   "description": "Convert style properties into React format",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/standard && ./node_modules/.bin/mocha"
+    "test": "./node_modules/.bin/standard && ./node_modules/.bin/nyc --reporter=html --reporter=text mocha",
+    "coverage": "./node_modules/.bin/nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,9 @@
   "homepage": "https://github.com/subhojit777/react-style-converter#readme",
   "devDependencies": {
     "chai": "^3.5.0",
+    "coveralls": "^2.11.16",
     "mocha": "^3.2.0",
+    "nyc": "^10.1.2",
     "standard": "^8.6.0"
   }
 }
